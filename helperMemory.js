@@ -1,17 +1,11 @@
 
 
 module.exports = function () {
-
-};
-
-
-helperMemory.prototype = {
-	initialize: function () {
-
-	},
-	test: function () {
+	function test () {
 		console.log("Working");
-	},
+	};
 
-	type: 'helperMemory'
+	return {
+		'test': test,
+	};
 };
