@@ -1,5 +1,9 @@
-module.exports.loop = function () {
-    var memory = require('./memory');
+"use strict";
+
+module.exports.loop = function() {
+
+	var helperMemory = require('helperMemory');
+	helperMemory.test();
 
 
 
